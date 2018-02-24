@@ -31,7 +31,7 @@ namespace AlexaMyChevy
 
                 log.LogLine("1");
                 innerResponse = new PlainTextOutputSpeech();
-                (innerResponse as PlainTextOutputSpeech).Text = "Hi, let me listen to you.  Just keep speaking and ask alexa to stop when you are done.";
+                (innerResponse as PlainTextOutputSpeech).Text = "Hi,  Just keep speaking and ask alexa to stop when you are done.";
 
                 log.LogLine("2");
                 // intent request, process the intent
