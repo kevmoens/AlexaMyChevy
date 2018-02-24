@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "UserId",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "ListenIntent"
+    },
+    {
+      "intent": "StopIntent"
+    },
+    {
+      "intent": "CancelIntent"
+    },
+    {
+      "intent": "HelpIntent"
+    }
+  ]
+}
